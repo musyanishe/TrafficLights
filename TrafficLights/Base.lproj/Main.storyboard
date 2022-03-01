@@ -44,6 +44,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="qi2-Ie-g5D"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -55,6 +58,12 @@
                             <constraint firstItem="mef-b7-L1b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="T04-9x-dnH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenView" destination="iia-6g-W0B" id="5k8-H1-by4"/>
+                        <outlet property="redView" destination="74x-do-R3Z" id="7oq-Y4-Z14"/>
+                        <outlet property="startButton" destination="psQ-cM-Yp7" id="R9Q-lj-RXF"/>
+                        <outlet property="yellowView" destination="21B-T4-2ls" id="eq3-Pf-9So"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
